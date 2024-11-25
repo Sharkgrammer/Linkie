@@ -1,10 +1,28 @@
 [
   {
-    "name": "GitHub",
-    "link": "https://github.com/Sharkgrammer"
+    "name": "Testing",
+    "links": [
+      {
+        "name": "GitHub",
+        "link": "https://github.com/Sharkgrammer"
+      },
+      {
+        "name": "Youtube",
+        "link": "https://www.youtube.com/@danielkeanekelly"
+      }
+    ]
   },
   {
-    "name": "Youtube",
-    "link": "https://www.youtube.com/@danielkeanekelly"
+    "name": "Testing Again",
+    "links": [
+      {
+        "name": "Website",
+        "link": "https://www.danielkeanekelly.com/"
+      },
+      {
+        "name": "LinkedIn",
+        "link": "https://www.linkedin.com/in/daniel-keane-kelly/"
+      }
+    ]
   }
 ]
