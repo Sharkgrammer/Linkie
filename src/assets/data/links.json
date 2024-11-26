@@ -1,6 +1,43 @@
 [
   {
-    "name": "Testing",
+    "name": "Project Linker",
+    "links": [
+      {
+        "name": "Portfolio Site",
+        "link": "https://www.danielkeanekelly.com/"
+      },
+      {
+        "name": "Hex",
+        "link": "https://www.danielkeanekelly.com/Hex/"
+      },
+      {
+        "name": "Pulse",
+        "link": "https://www.danielkeanekelly.com/Pulse-Frontend/"
+      },
+      {
+        "name": "Samaritan",
+        "link": "https://www.danielkeanekelly.com/Samaritan/"
+      },
+      {
+        "name": "Stacker",
+        "link": "https://www.danielkeanekelly.com/Stacker/"
+      },
+      {
+        "name": "Does The Shark Die",
+        "link": "https://www.danielkeanekelly.com/Does-The-Shark-Die/"
+      },
+      {
+        "name": "Quantum Poem",
+        "link": "https://www.danielkeanekelly.com/Quantum-Poem/"
+      },
+      {
+        "name": "My Stats Page",
+        "link": "https://www.danielkeanekelly.com/Lightweight-GitHub-Stats/"
+      }
+    ]
+  },
+  {
+    "name": "Social Media",
     "links": [
       {
         "name": "GitHub",
@@ -9,19 +46,23 @@
       {
         "name": "Youtube",
         "link": "https://www.youtube.com/@danielkeanekelly"
-      }
-    ]
-  },
-  {
-    "name": "Testing Again",
-    "links": [
+      },
       {
-        "name": "Website",
-        "link": "https://www.danielkeanekelly.com/"
+        "name": "Bluesky",
+        "link": "https://bsky.app/profile/danielkeanekelly.com"
       },
       {
         "name": "LinkedIn",
         "link": "https://www.linkedin.com/in/daniel-keane-kelly/"
+      }
+    ]
+  },
+  {
+    "name": "Contact",
+    "links": [
+      {
+        "name": "Email",
+        "link": "mailto:danielkeanekelly@gmail.com"
       }
     ]
   }

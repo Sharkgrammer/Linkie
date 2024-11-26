@@ -2,22 +2,23 @@ import data from "./assets/data/links.json";
 import settings from "./assets/data/settings.json";
 import {LinkItem} from "./types/LinkItem.ts";
 import {Section} from "./types/Section.ts";
-import you from "./../public/img/you.png"
 
 function App() {
 
     return (
-        <div className="flex justify-center w-full">
+        <div className="flex justify-center w-full py-2">
             <div className="pb-5 flex flex-col gap-4 w-full max-w-[90%] lg:max-w-[70%]">
 
-                <div className="flex flex-col items-center">
-                    <img src={you} className="w-48 h-48 rounded-full p-2"/>
+                {settings.profile && (
+                    <div className="flex flex-col items-center">
+                        <img src={settings.profile.img} className="w-48 h-48 rounded-full p-2"/>
 
-                    <h1 className="font-bold">Daniel Keane Kelly</h1>
-                    <h4 className="text-gray-200">Full Stack Dev | I just like to make stuff</h4>
-                </div>
+                        <h1 className="font-bold">{settings.profile.name}</h1>
+                        <h4 className="text-gray-200">{settings.profile.desc}</h4>
+                    </div>
+                )}
 
-                <div className={`px-2 w-full flex flex-col items-center gap-10 text-center bg-[${settings.bgColour}]`}>
+                <div className={`px-2 w-full flex flex-col items-center gap-10 text-center`}>
 
                     {data.map((section: Section, index: number) =>
                         (
